@@ -16,6 +16,7 @@
 export default {
   name: 'Column',
 
+  // eslint-disable-next-line vue/require-prop-types
   props: ['activities', 'type'],
 };
 </script>
