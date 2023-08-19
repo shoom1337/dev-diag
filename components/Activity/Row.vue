@@ -7,6 +7,7 @@
 <script>
 export default {
   name: 'Row',
+  // eslint-disable-next-line vue/require-prop-types
   props: ['name', 'type'],
   computed: {
     checked: {
