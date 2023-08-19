@@ -3,7 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - deploy
+      - gh-pages
 
 jobs:
   ci:
@@ -48,4 +48,3 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./dist
-          publish_branch: deploy
