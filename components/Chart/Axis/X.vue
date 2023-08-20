@@ -46,7 +46,7 @@ export default {
 }
 .dash {
   height: 10px;
-  width: 2px;
+  width: 1px;
   margin-left: 30px;
 }
 

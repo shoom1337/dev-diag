@@ -45,7 +45,7 @@ export default {
   justify-content: flex-end;
 }
 .dash {
-  height: 2px;
+  height: 1px;
   width: 10px;
   margin-bottom: 30px;
 }
