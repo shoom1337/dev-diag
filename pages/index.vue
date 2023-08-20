@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Chart />
     <ActivityTab />
     <ButtonSubmit />
     <ButtonReset />

@@ -6,6 +6,13 @@ export const state = () => getInitialState();
 
 export const getters = {
   getActivityValue: (state) => (type) => (activity) => state[type][activity],
+  getCheckedActivitiesCount: (state) => {
+    const checkedActivities = filterCheckedActivities(state);
+    return {
+      x: checkedActivities.horizontal.length,
+      y: checkedActivities.vertical.length,
+    };
+  },
 };
 
 export const mutations = {

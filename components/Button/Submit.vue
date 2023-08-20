@@ -9,6 +9,7 @@ export default {
   name: 'Submit',
   methods: {
     onClick() {
+      this.$store.commit('dialog/toggleIsOpen');
       this.$store.commit('activities/saveStateToLS');
     },
   },
