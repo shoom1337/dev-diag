@@ -24,8 +24,8 @@ export default {
 .wrapper {
   position: absolute;
   bottom: 0;
-  width: 100px;
-  height: 210px;
+  width: 240;
+  height: 100px;
 }
 .axis,
 .dash {
