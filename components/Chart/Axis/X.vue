@@ -24,8 +24,8 @@ export default {
 .wrapper {
   position: absolute;
   bottom: 0;
-  width: 100%;
-  height: 200px;
+  width: 100px;
+  height: 210px;
 }
 .axis,
 .dash {
@@ -34,7 +34,7 @@ export default {
 .axis {
   position: absolute;
   bottom: 0;
-  width: 350px;
+  width: 210px;
   height: 1px;
 }
 
@@ -47,12 +47,12 @@ export default {
 .dash {
   height: 10px;
   width: 2px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .emoji {
   position: absolute;
-  right: -50px;
-  bottom: 20px;
+  right: -40px;
+  bottom: 0;
 }
 </style>

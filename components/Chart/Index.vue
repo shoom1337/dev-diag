@@ -1,8 +1,8 @@
 <template>
   <el-dialog
-    title="Ваш график"
+    title="Результат"
     :visible="visible"
-    width="500px"
+    width="300px"
     :before-close="handleClose"
   >
     <div class="chart">
@@ -31,7 +31,9 @@ export default {
 <style scoped>
 .chart {
   position: relative;
-  height: 400px;
-  margin: 20px;
+  height: 250px;
+  width: 250px;
+  margin: 20px auto;
+  margin-top: 0;
 }
 </style>

@@ -9,8 +9,8 @@ export default {
       const { x, y } =
         this.$store.getters['activities/getCheckedActivitiesCount'];
       return {
-        bottom: `${x * 50}px`,
-        left: `${y * 50}px`,
+        bottom: `${x * 30 + x}px`,
+        left: `${y * 30 + y}px`,
       };
     },
   },
@@ -22,7 +22,7 @@ export default {
   position: absolute;
 
   bottom: 0px;
-  left: 0px;
+  left: 1px;
   transform: translate(-10px, 10px);
   width: 20px;
   height: 20px;
