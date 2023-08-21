@@ -1,6 +1,6 @@
 <template>
   <div v-if="paragraphs">
-    <p v-for="(p, i) in paragraphs" :key="i">{{ p }}</p>
+    <p v-for="(p, i) in paragraphs" :key="i" class="paragraph">{{ p }}</p>
   </div>
 </template>
 
@@ -11,3 +11,9 @@ export default {
   props: ['paragraphs'],
 };
 </script>
+
+<style scoped>
+.paragraph {
+  word-break: keep-all;
+}
+</style>
