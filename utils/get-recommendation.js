@@ -15,8 +15,8 @@ export function getRecommendation(activities) {
     way = WAY.VERTICAL;
     hint = HINT.VERTICAL;
     recommendations = [
-      ...RECOMMENDATIONS.VERTICAL,
       ...RECOMMENDATIONS.HORIZONTAL,
+      ...RECOMMENDATIONS.VERTICAL,
     ];
   }
 
@@ -24,8 +24,8 @@ export function getRecommendation(activities) {
     way = WAY.BOTH;
     hint = HINT.BOTH;
     recommendations = [
-      ...RECOMMENDATIONS.VERTICAL,
       ...RECOMMENDATIONS.HORIZONTAL,
+      ...RECOMMENDATIONS.VERTICAL,
     ];
   }
 

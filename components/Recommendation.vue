@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-row>
+    <el-row class="row">
       <span class="bold">Склонность: </span>
       {{ recommendation.way }}
     </el-row>
@@ -30,6 +30,9 @@ export default {
 </script>
 
 <style scoped>
+.row {
+  word-break: keep-all;
+}
 .bold {
   font-weight: bold;
 }
