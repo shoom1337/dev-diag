@@ -4,16 +4,18 @@
     <div class="dashes">
       <div v-for="d in dashCount" :key="d" class="dash"></div>
     </div>
-    <div class="emoji">emoji</div>
+    <div class="emoji">{{ emoji }}</div>
   </div>
 </template>
 
 <script>
+import { emoji } from '../../../constants/common';
 export default {
   name: 'Y',
   data() {
     return {
       dashCount: 6,
+      emoji: emoji.vertical,
     };
   },
 };
@@ -51,6 +53,7 @@ export default {
 }
 .emoji {
   position: absolute;
-  top: 0;
+  top: -15px;
+  font-size: 30px;
 }
 </style>
