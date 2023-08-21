@@ -1,9 +1,11 @@
 <template>
-  <div>
-    <Chart />
+  <div class="wrapper">
+    <AppInfo />
     <ActivityTab />
     <ButtonSubmit />
     <ButtonReset />
+    <AppDisclaimer />
+    <Chart />
   </div>
 </template>
 
@@ -19,3 +21,10 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style scoped>
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+</style>

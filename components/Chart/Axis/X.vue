@@ -1,20 +1,21 @@
 <template>
   <div class="wrapper">
-    <div class="axis">
-      <div class="dashes">
-        <div v-for="d in dashCount" :key="d" class="dash"></div>
-      </div>
-      <div class="emoji">emoji</div>
+    <div class="axis"></div>
+    <div class="dashes">
+      <div v-for="d in dashCount" :key="d" class="dash"></div>
     </div>
+    <div class="emoji">{{ emoji }}</div>
   </div>
 </template>
 
 <script>
+import { emoji } from '../../../constants/common';
 export default {
   name: 'X',
   data() {
     return {
       dashCount: 6,
+      emoji: emoji.horizontal,
     };
   },
 };
@@ -52,7 +53,8 @@ export default {
 
 .emoji {
   position: absolute;
-  right: -40px;
+  right: -10px;
   bottom: 0;
+  font-size: 30px;
 }
 </style>

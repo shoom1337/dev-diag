@@ -1,9 +1,9 @@
 <template>
   <div class="content">
-    <el-col :span="22" :md="{ span: 6 }">
+    <el-col :span="22" :md="{ span: 8 }">
       <ActivityColumn :activities="activities.vertical" type="vertical" />
     </el-col>
-    <el-col :span="22" :md="{ span: 6 }">
+    <el-col :span="22" :md="{ span: 8 }">
       <ActivityColumn :activities="activities.horizontal" type="horizontal" />
     </el-col>
   </div>
