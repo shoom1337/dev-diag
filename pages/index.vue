@@ -5,7 +5,7 @@
     <ButtonSubmit />
     <ButtonReset />
     <AppDisclaimer />
-    <Chart />
+    <Result />
   </div>
 </template>
 

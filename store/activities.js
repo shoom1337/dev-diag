@@ -6,6 +6,9 @@ export const state = () => getInitialState();
 
 export const getters = {
   getActivityValue: (state) => (type) => (activity) => state[type][activity],
+  getCheckedActivities: (state) => {
+    return filterCheckedActivities(state);
+  },
   getCheckedActivitiesCount: (state) => {
     const checkedActivities = filterCheckedActivities(state);
     return {
