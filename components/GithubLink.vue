@@ -1,5 +1,5 @@
 <template>
-  <el-col :span="3" :offset="11">
+  <el-col :span="22" :offset="1">
     <a :href="link">
       <svg width="98" height="96" xmlns="http://www.w3.org/2000/svg">
         <path
