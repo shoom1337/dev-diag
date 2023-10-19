@@ -5,7 +5,6 @@
     <ButtonSubmit />
     <ButtonReset />
     <AppDisclaimer />
-    <GithubLink />
     <Result />
   </div>
 </template>
